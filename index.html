@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mare Islas - Portafolio</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Tipografías -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  <!-- Librerías -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.39/Tone.min.js"></script>
+</head>
+<body>
+  <div id="sketch-background"></div>
+
+  <!-- CABECERA -->
+  <header class="header">
+    <div class="logo">Mare <span>Islas</span></div>
+    <div class="byline">by Rebeca Islas</div>
+  </header>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main class="container">
+    <!-- LADO IZQUIERDO (tipo periódico) -->
+    <section class="left-panel">
+      <img src="fotos/foto1.jpg" alt="Foto personal" class="foto-principal">
+
+      <h2 class="subtitle">¿Quién soy?<br><span>Además de productora musical...</span></h2>
+
+      <div class="texto-periodico">
+        <p>
+          Mi nombre es María Rebeca Hernández, actualmente curso la 
+          Licenciatura de Tecnología Musical (LTM) en el Tecnológico de Monterrey, Campus Querétaro. 
+          Siempre he sido amante de la música, desde una edad temprana he estado en instituciones 
+          que me mantienen cercana a la misma.
+        </p>
+        <p>
+          Me encanta crear sonidos que se convierten en melodías, más que nada, explorar nuevos estilos; 
+          pero si soy honesta, siempre he estado más al tanto del pop y urbano.
+        </p>
+        <p>
+          Aún cuando soy amante del lado creativo, también disfruto lo técnico, por lo mismo, 
+          últimamente diseño sonoro es una de las concentraciones que más me han interesado.
+        </p>
+        <p>
+          Por último, soy cada una de las personas que me enseñaron a amar y disfrutar de la música, 
+          desde mi familia en un fin de semana casual por la mañana hasta mi flautista favorito: mi abuelo.
+        </p>
+      </div>
+
+      <img src="fotos/foto2.jpg" alt="Foto abuelo" class="foto-secundaria">
+    </section>
+
+    <!-- LADO DERECHO (botones interactivos) -->
+    <section class="right-panel">
+      <h2 class="content-title">Más contenido dando click...</h2>
+
+      <div class="buttons vinilos">
+        <button class="vinilo proyectos">Proyectos</button>
+        <button class="vinilo composiciones">Composiciones</button>
+        <button class="vinilo colaboraciones">Colaboraciones</button>
+      </div 
+<div id="contenido-dinamico"></div>
+<div id="modal" class="modal" aria-hidden="true">
+  <div class="modal-content">
+    <span class="modal-close" role="button" aria-label="Cerrar">&times;</span>
+    <img id="modalImage" alt="">
+    <p id="modalCaption"></p>
+  </div>
+</div>
+ 
+
+
+
+
+
+
+
+      <p class="contacto">📧 mareislas3@gmail.com</p>
+      <div class="player-icons">
+        ⏮ ⏯ ⏭ 🔀 🔁
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
